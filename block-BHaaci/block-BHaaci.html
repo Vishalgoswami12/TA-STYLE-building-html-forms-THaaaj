@@ -1,0 +1,67 @@
+<!-- - Create a forms according to the layout shown below.
+
+![Building HTML forms Assignment level 1](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-1.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Bulding HTML Forms
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="flex">
+      <section class="section-width">
+        <h1 class="heading">
+          Learn to code by watching others
+        </h1>
+        <p class="para-font">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed
+        </p>
+      </section>
+      <section class="sec-width">
+        <div class="box">
+          <p class="describe-para">
+            <span>Try it free 7 days</span> $20/mo. thereafter
+          </p>
+        </div>
+        <div class="form-box">
+          <div>
+            <form>
+              <!-- <label class="label-color" for="Janathan |">Janathan |</label> -->
+              <input
+                class="border"
+                type="text"
+                name="Janathan"
+                placeholder="First name"
+                value="Janathan"
+              />
+              <input type="text" name="Last name" placeholder="Last name" />
+              <input
+                type="text"
+                name="Email Address"
+                placeholder="Email addresss"
+              />
+              <input type="password" name="Password" placeholder="Password" />
+              <button>
+                CLaim your free trial
+              </button>
+              <p class="terms">
+                By clicking the button, you are agreeing to our
+                <span class="red">Terms and conditions</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
