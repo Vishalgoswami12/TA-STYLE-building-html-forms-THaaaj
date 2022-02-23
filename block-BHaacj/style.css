@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.display {
+  display: flex;
+}
+header {
+  margin: 0 auto;
+  width: 55%;
+  padding: 10px;
+}
+ul a {
+  text-decoration: none;
+  font-size: 10px;
+  color: black;
+}
+.anchor-color {
+  color: #73cabe;
+}
+.display a {
+  margin-left: 26px;
+}
+main {
+  background-color: #e6e6e6;
+}
+.main-width {
+  margin: 0 auto;
+  width: 65%;
+}
+.back-image {
+  background-image: url(./assets/banner.jpg);
+  height: 550px;
+}
+.head-font {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+}
+.image-center {
+  text-align: center;
+  margin-top: 15px;
+}
+.white {
+  color: white;
+}
+.para-font {
+  color: white;
+  margin-top: 10px;
+}
+.background-color {
+  background-color: white;
+  margin: 0 auto;
+  width: 79%;
+  padding: 20px;
+  margin-top: 60px;
+}
+.in-block {
+  outline: none;
+  display: block;
+  border: none;
+  font-size: 11px;
+  padding: 10px 0;
+}
+.size {
+  font-size: 12px;
+}
+.wid {
+  width: 144px;
+  height: 33px;
+  margin-top: 10px;
+  font-size: 10px;
+  margin: 16px 3px;
+}
+.btn {
+  background-color: #69c6ba;
+  color: white;
+  border: none;
+  width: 232px;
+  height: 32px;
+}
+.m-top {
+  margin-top: 30px;
+}
+.journey-background {
+  background-color: #efefef;
+  padding: 30px 0;
+}
+.section-center {
+  margin: 0 auto;
+  width: 50%;
+}
+.semi-head-font {
+  color: #6c6f71;
+  font-size: 25px;
+}
+.word-font {
+  color: #212529;
+  font-weight: bold;
+}
+.semi-para {
+  font-size: 10px;
+  color: #c8c8c9;
+  margin-right: 40px;
+  margin-top: 25px;
+}
+.section-btn {
+  background-color: #69c6ba;
+  color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 20px;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+.position {
+  position: relative;
+  background-color: white;
+}
+.image-describe-color {
+  background-color: #69c6ba;
+  width: 421px;
+  padding: 20px 0;
+  position: absolute;
+  top: 87px;
+  left: 380px;
+}
+.europe-heading {
+  color: white;
+  font-size: 22px;
+  margin-left: 60px;
+}
+.europe-describe {
+  color: white;
+  font-size: 12px;
+  margin: 10px 0;
+  width: 60%;
+  margin-left: 60px;
+}
+.reading-btn {
+  background-color: white;
+  color: #69c6ba;
+  border: none;
+  margin-left: 60px;
+}
+.box-describe-color {
+  background-color: #c66994;
+  width: 421px;
+  padding: 20px 0;
+  height: 132px;
+  position: absolute;
+  top: 349px;
+  left: 21px;
+}
+.asia-heading {
+  font-size: 18px;
+  color: white;
+  margin-left: 60px;
+}
+.shift {
+  margin-left: 399px;
+}
+.america-describe-color {
+  background-color: #69c6ba;
+  width: 421px;
+  padding: 20px 0;
+  position: absolute;
+  top: 634px;
+  left: 376px;
+}
+.country-map-box {
+  background-color: #69c6ba;
+  height: 125px;
+  padding: 10px;
+}
+.country-word-font {
+  color: white;
+  font-size: 12px;
+}
+.europe-color {
+  background-color: #c66994;
+  text-align: center;
+}
+.image-describe-width {
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px 10px;
+  margin-left: 110px;
+}
+.hotel-head-font {
+  color: #212529;
+  font-size: 14px;
+}
+.country-name {
+  color: #d085a8;
+  font-size: 10px;
+}
+.country-hotel-para {
+  color: #aeacac;
+  font-size: 12px;
+}
+.clip {
+  clip-path: polygon(64% 0, 64% 50%, 64% 100%, 0% 100%, 10% 51%, 0% 0%);
+  background-color: #69c6ba;
+  height: 120px;
+  width: 87%;
+  color: white;
+}
+.clip-para {
+  margin-left: 66px;
+  padding-top: 30px;
+}
+.clip-para-read {
+  margin-left: 49px;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.mt-left {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.margin {
+  margin-top: 20px;
+}
+.places-btn {
+  background-color: #69c6ba;
+  color: white;
+  border: none;
+  margin-top: 25px;
+  padding: 8px;
+}
+.place-btn-center {
+  display: flex;
+  justify-content: center;
+}
+.map-address-box {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  bottom: 60px;
+  left: 420px;
+}
+.block {
+  display: block;
+  margin-top: 10px;
+  width: 320px;
+  padding: 5px;
+  outline: none;
+}
+.size {
+  width: 150px;
+  padding: 5px;
+  outline: none;
+}
+input:focus {
+  border: 1px solid cyan;
+}
+textarea:focus {
+  border: 1px solid cyan;
+}
+.message-box {
+  margin-top: 10px;
+  width: 328px;
+  outline: none;
+  padding: 5px;
+}
+.send-btn-font {
+  background-color: #69c6ba;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 340px;
+  margin-top: 20px;
+}
+.set-image {
+  position: absolute;
+  bottom: 40px;
+  left: 10px;
+}
+footer {
+  background-color: #69c6ba;
+  color: white;
+  font-size: 12px;
+  padding: 15px;
+  text-align: center;
+}
+.icon-position {
+  position: absolute;
+  top: 157px;
+  left: 355px;
+}
+.icon-position-europe {
+  position: absolute;
+  top: 430px;
+  left: 446px;
+}
+.icon-position-america {
+  position: absolute;
+  top: 704px;
+  left: 353px;
+}
