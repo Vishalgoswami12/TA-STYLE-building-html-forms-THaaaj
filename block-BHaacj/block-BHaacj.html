@@ -1,0 +1,298 @@
+<!-- - Create a page according to the layout shown below.
+
+![Building HTML forms Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/building-html-forms/ex-2.png)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Building HTML Form
+    </title>
+    <script src="https://use.fontawesome.com/cd82e20508.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="flex">
+      <div>
+        <img src="assets/logo.png" width="50" />
+      </div>
+      <nav>
+        <ul class="display">
+          <li><a class="anchor-color" href="#">Home</a></li>
+          <li><a href="#">Top Destination</a></li>
+          <li><a href="#">Recomended Places</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="main-width">
+        <div class="back-image">
+          <h1 class="head-font">LET'S BEGIN</h1>
+          <div class="image-center">
+            <img src="assets/dots-3.png" height="25" />
+            <p class="para-font">We assist you to choice the best</p>
+            <i class="fa fa-solid fa-check"></i>
+          </div>
+          <div class="background-color">
+            <div>
+              <form class="flex">
+                <div>
+                  <label class="size">
+                    Choose Your Destination
+                    <input
+                      class="in-block"
+                      type="text"
+                      name="Choose-Your-Destination"
+                      placeholder="Choice Your Destination"
+                    />
+                  </label>
+                </div>
+                <div class="flex">
+                  <label class="size">
+                    How many rooms ?
+                    <select class="in-block wid" name="language">
+                      <option value="1Room">1Room</option>
+                    </select>
+                  </label>
+                  <label class="size">
+                    Adult
+                    <select class="in-block wid" name="language">
+                      <option value="1">1</option>
+                    </select>
+                  </label>
+                  <label class="size">
+                    Children
+                    <select class="in-block wid" name="language">
+                      <option value="1">1</option>
+                    </select>
+                  </label>
+                </div>
+              </form>
+              <form class="flex m-top">
+                <label class="size">
+                  Check &#x1FAF5;
+                  <input
+                    class="in-block"
+                    type="text"
+                    name="Check In Date"
+                    placeholder="Check In"
+                  />
+                </label>
+                <label class="size">
+                  Check Out Date
+                  <input
+                    class="in-block"
+                    type="text"
+                    name="Check Out Date"
+                    placeholder="Check out"
+                  />
+                </label>
+                <button class="btn">Check Your Availbilty</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <section class="journey-background">
+          <div class="section-center">
+            <h1 class="semi-head-font">
+              Your<span class="word-font"> Journey</span> IS OUR PRIORITY
+            </h1>
+            <p class="semi-para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              elementum at lacus nec consectetur. Vivamus tempor enim nibh, quis
+              vulputate vulputate rhoncus. Vivamus ante turpis, tristique a
+              ornare at
+            </p>
+            <div class="btn-center">
+              <button class="section-btn">Continue Explore</button>
+            </div>
+          </div>
+        </section>
+        <section class="position">
+          <img src="./assets/tm-img-01.jpg" width="400" />
+          <div class="icon-position">
+            <i class="fa fa-solid fa-caret-left"></i>
+            <i class="fa fa-solid fa-caret-right"></i>
+          </div>
+          <div class="image-describe-color">
+            <h2 class="europe-heading">Europe Most Visted Place</h2>
+            <p class="europe-describe">
+              Consectetur adipiscing elit. Maecenas elementum at lacus nec
+              consectetur. Vivamus tempor enim nibh, quis vulputate vulputate
+              rhoncus. Vivamus ante turpis, tristique a ornare atConsectetur
+              adipiscing elit. Maecenas elementum at lacus nec consectetur.
+              Vivamus tempor enim nibh,
+            </p>
+            <button class="reading-btn">Continue Reading</button>
+          </div>
+          <div class="flex">
+            <div class="box-describe-color">
+              <h2 class="asia-heading">ASIAS'S MOST POPULAR PLACES</h2>
+              <p class="europe-describe">
+                Consectetur adipiscing elit. Maecenas elementum at lacus nec
+                consectetur. Vivamus tempor enim nibh, quis vulputate vulputate
+                rhoncus. Vivamus ante turpis, tristique a ornare atConsectetur
+                adipiscing elit. Maecenas elementum at lacus nec consectetur.
+                Vivamus tempor enim nibh,
+              </p>
+              <button class="reading-btn">Continue Reading</button>
+            </div>
+            <div class="shift">
+              <img src="assets/tm-img-02.jpg" width="400" />
+              <div class="icon-position-europe">
+                <i class="fa fa-solid fa-caret-left"></i>
+                <i class="fa fa-solid fa-caret-right"></i>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/tm-img-03.jpg" width="400" />
+          <div class="icon-position-america">
+            <i class="fa fa-solid fa-caret-left"></i>
+            <i class="fa fa-solid fa-caret-right"></i>
+          </div>
+          <div class="america-describe-color">
+            <h2 class="europe-heading">America's Most Famous Place</h2>
+            <p class="europe-describe">
+              Consectetur adipiscing elit. Maecenas elementum at lacus nec
+              consectetur. Vivamus tempor enim nibh, quis vulputate vulputate
+              rhoncus. Vivamus ante turpis, tristique a ornare atConsectetur
+              adipiscing elit. Maecenas elementum at lacus nec consectetur.
+              Vivamus tempor enim nibh,
+            </p>
+            <button class="reading-btn">Continue Reading</button>
+          </div>
+          <div class="country-map-box flex">
+            <div>
+              <img src="assets/north-america.png " height="100px" width="50" />
+              <h3 class="country-word-font">NORTH AMERICA</h3>
+            </div>
+            <div>
+              <img src="assets/south-america.png " height="100px" width="50" />
+              <h3 class="country-word-font">SOUTH AMERICA</h3>
+            </div>
+            <div class="europe-color">
+              <img src="assets/europe.png " height="100px" width="80" />
+              <h3 class="country-word-font">EUROPE</h3>
+            </div>
+            <div>
+              <img src="assets/asia.png" height="100px" width="50" />
+              <h3 class="country-word-font">ASIA</h3>
+            </div>
+            <div>
+              <img src="assets/africa.png" height="100px" width="50" />
+              <h3 class="country-word-font">AFRICA</h3>
+            </div>
+            <div>
+              <img src="assets/australia.png" height="100px" width="50" />
+              <h3 class="country-word-font">AUSTRALIA</h3>
+            </div>
+            <div>
+              <img src="assets/antartica.png" height="100px" width="50" />
+              <h3 class="country-word-font">ANTARTICA</h3>
+            </div>
+          </div>
+          <div class="image-describe-width">
+            <div class="flex">
+              <img src="assets/tm-img-06.jpg" width="150" />
+              <div class="mt-left">
+                <h2 class="hotel-head-font">Asia Resort Hotel</h2>
+                <span class="country-name">Singapore</span>
+                <p class="country-hotel-para">
+                  Morbi cursus dapibus ligula. Pellentesque vel congue felis.
+                  Suspendisse at gravida tellus. Vivamus quis est efficitur orci
+                  venenatis tempus at vel
+                </p>
+              </div>
+              <div class="clip">
+                <p class="clip-para">$440</p>
+                <p class="clip-para-read">Continue Reading</p>
+              </div>
+            </div>
+            <div class="flex margin">
+              <img src="assets/tm-img-07.jpg" width="150" />
+              <div class="mt-left">
+                <h2 class="hotel-head-font">NULLAM EGET EST A NISL</h2>
+                <span class="country-name">Yangon, Myammar</span>
+                <p class="country-hotel-para">
+                  Morbi cursus dapibus ligula. Pellentesque vel congue felis.
+                  Suspendisse at gravida tellus. Vivamus quis est efficitur orci
+                  venenatis tempus at vel
+                </p>
+              </div>
+              <div class="clip">
+                <p class="clip-para">$450</p>
+                <p class="clip-para-read">Continue Reading</p>
+              </div>
+            </div>
+            <div class="flex margin">
+              <img src="assets/tm-img-05.jpg" width="150" />
+              <div class="mt-left">
+                <h2 class="hotel-head-font">PROIN INTERDUM ULLAMCORPER</h2>
+                <span class="country-name">Bangkok,Thailand</span>
+                <p class="country-hotel-para">
+                  Morbi cursus dapibus ligula. Pellentesque vel congue felis.
+                  Suspendisse at gravida tellus. Vivamus quis est efficitur orci
+                  venenatis tempus at vel
+                </p>
+              </div>
+              <div class="clip">
+                <p class="clip-para">$460</p>
+                <p class="clip-para-read">Continue Reading</p>
+              </div>
+            </div>
+            <div class="place-btn-center">
+              <button class="places-btn">Show More Places</button>
+            </div>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13503.082587909415!2d76.3521509!3d32.210410249999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shi!2sin!4v1645622528248!5m2!1shi!2sin"
+            width="835"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+          <div class="map-address-box">
+            <form>
+              <input class="size" type="name" name="name" placeholder="Name" />
+              <input
+                class="size"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+              <input
+                class="block"
+                type="subject"
+                name="subject"
+                placeholder="Subject"
+              />
+              <textarea
+                class="message-box"
+                name="message"
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </form>
+            <button class="send-btn-font">Send Message Now</button>
+          </div>
+          <div class="set-image">
+            <img src="assets/image.jpeg" width="50" />
+          </div>
+        </section>
+        <footer>
+          <p>Copyright @ 2020 company Degined bt Tarapize Mo</p>
+        </footer>
+      </div>
+    </main>
+  </body>
+</html>
